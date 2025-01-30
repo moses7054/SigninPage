@@ -41,7 +41,7 @@ const cardVariants = {
 
 export default function AnimatedCards() {
   return (
-    <div className="-rotate-[7deg] absolute -top-[16%] -right-[12%]  overflow-hidden max-lg:hidden max-:">
+    <div className="-rotate-[7deg] absolute -top-[16%] -right-[12%]  overflow-hidden max-lg:hidden max-xl:-right-[500px]">
       <motion.div
         className="flex gap-5 "
         initial={{ y: 0 }}

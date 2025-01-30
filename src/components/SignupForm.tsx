@@ -102,9 +102,9 @@ const SignupForm = () => {
 
       <button
         type="submit"
-        className="w-[280px] h-[40px] mt-3 bg-[#007CB5] rounded-3xl"
+        className="max-w-[280px] w-[35%] h-[40px] mt-3 bg-[#007CB5] rounded-3xl"
       >
-        <span className="font-figtree font-semibold text-[18px] leading-5 text-white">
+        <span className="font-figtree font-semibold text-[18px] leading-5 text-white max-sm:text-sm">
           Continue
         </span>
       </button>
