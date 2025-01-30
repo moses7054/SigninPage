@@ -102,7 +102,8 @@ const SignupForm = () => {
 
       <button
         type="submit"
-        className="max-w-[280px] w-[35%] h-[40px] mt-3 bg-[#007CB5] rounded-3xl"
+        className="max-w-[280px] w-[35%] h-[40px] mt-3 bg-[#007CB5] rounded-3xl  transition-all duration-300 
+                 hover:shadow-lg hover:-translate-y-0.2 active:scale-95"
       >
         <span className="font-figtree font-semibold text-[18px] leading-5 text-white max-sm:text-sm">
           Continue
