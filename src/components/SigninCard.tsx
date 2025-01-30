@@ -56,7 +56,6 @@ const SigninCard = () => {
         <span className="text-[#007CB5] hover:cursor-pointer">
           Privacy Policy.
         </span>
-        .
       </p>
     </div>
   );
