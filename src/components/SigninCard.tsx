@@ -39,11 +39,11 @@ const SigninCard = () => {
 
       {/* Or Line */}
       <div className="flex gap-[14px] w-full items-center mt-4">
-        <div className="h-[1px] w-full bg-green-50"></div>
+        <div className="h-[1px] w-full bg-[#E6E8EA]"></div>
         <p className="font-figtree font-normal text-xs leading-[18px] text-[#5E7078]">
           OR
         </p>
-        <div className="h-[2px] w-full bg-green-50"></div>
+        <div className="h-[1px] w-full bg-[#E6E8EA]"></div>
       </div>
 
       <SignupForm />
