@@ -14,7 +14,10 @@ const SigninCard = () => {
   return (
     <div className="p-10 bg-white rounded-3xl shadow-[0px_5px_10px_2px_#0000001A] flex flex-col items-center max-w-[556px] z-20 max-md:px-5 max-sm:py-5 max-sm:rounded-md ">
       <p className="font-figtree font-semibold text-4xl leading-[42px] text-center mb-6 max-sm:text-xl max-sm:leading-5">
-        Get Started to unlock your <br /> study potential.
+        <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#2C9CE2] to-[#BFADF2]">
+          Get Started
+        </span>{" "}
+        to unlock your <br /> study potential.
       </p>
       <p className="font-figtree font-normal text-base leading-5 text-[#5E7078] mb-[16px] hover:cursor-default">
         Already have an account?{" "}

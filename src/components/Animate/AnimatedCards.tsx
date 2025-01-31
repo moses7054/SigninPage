@@ -46,7 +46,7 @@ export default function AnimatedCards() {
         className="flex gap-5 "
         initial={{ y: 0 }}
         animate={{ y: 100 }}
-        transition={{ duration: 6, ease: "linear" }}
+        transition={{ duration: 20, ease: "linear" }}
       >
         <div className="flex flex-col gap-3">
           {Col1.map((Card, index) => (
